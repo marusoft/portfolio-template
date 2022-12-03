@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: dodgerblue;
+}
+.me{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  gap: 1rem;
+}
+.myname{
+  font-size: 32px;
+}
+.profession{
+  font-size: 32px;
+  color: orange;
+}
+.projects > h1{
+  text-align: center;
+  font-size: 2rem;
+}
+.project-list{
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills{
+  background-color: dodgerblue;
+  padding: 4rem;
+}
+.skills > h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.aboutme{
+  padding: 3rem;
+}
+.social-handles{
+  background-color: dodgerblue;
+  padding: 2rem;
+}
